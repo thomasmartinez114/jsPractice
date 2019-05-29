@@ -1,5 +1,18 @@
-1) Converting numbers to Alpha using fromCharCode method: forLoop, forEach, and map.
+Array Manipulation
+Array: 67, 80, 65, 79, 86, 66, 75, 71, 81, 69, 90, 79, 68, 65, 73, 88
 
-2) Displaying numbers below only numbers greater than 72 and less than 88 using filter method.
+1. Convert numbers to Alphabet using the fromCharCode method
+a. Using a for loop:
 
-3) Display the product of all numbers using reduce.
+Answer
+b. Using the forEach method:
+
+Answer
+c. Using the map method:
+
+Answer
+2. Display numbers below showing only numbers that are greater than 72 and less then 88 (inclusive) using the filter method
+Answer:
+
+3. Display the product of all numbers using reduce
+Answer:
