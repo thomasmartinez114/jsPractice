@@ -11,3 +11,5 @@ c. Using the map method:
 2. Display numbers below showing only numbers that are greater than 72 and less then 88 (inclusive) using the filter method
 
 3. Display the product of all numbers using reduce
+
+https://github.com/Muosvr/jspractice/tree/master
