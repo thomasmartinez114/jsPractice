@@ -11,6 +11,7 @@ Answer
 c. Using the map method:
 
 Answer
+
 2. Display numbers below showing only numbers that are greater than 72 and less then 88 (inclusive) using the filter method
 Answer:
 
