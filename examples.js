@@ -22,3 +22,5 @@ const newArr = arr.map(function(element){
 })
 
 newArr
+
+
