@@ -14,15 +14,11 @@ function answerLoop() {
 
 
 // Using the forEach method:
-function answerForEach() {
-    var array = [];
-    numbers.forEach(function(item){
-        array.push(item)
-    const alpha = String.fromCharCode(array);
-    array.push(alpha);
-    });
-    document.getElementById('forEach').innerHTML += " " + array.join(" , ");
-}
+function forEachLoop() {
+    numbers.forEach(e => {
+    document.getElementById('forEach').innerHTML += " " + String.fromCharCode(e)
+})
+
 // Using the map method:
 function answerMap(item) {
     var array = [];
