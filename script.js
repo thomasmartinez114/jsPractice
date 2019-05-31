@@ -4,19 +4,30 @@ const numbers = [67, 80, 65, 79, 86, 66, 75, 71, 81, 69, 90, 79, 68, 65, 73, 88]
 
 // Using a for loop:
 function answerLoop() {
-    var arrayLoop = [];
-    const data = numbers;
-    const answerLoop = document.getElementById('loop').innerHTML = data;
+    var array = [];
+    for (var i = 0; i < numbers.length; i++){
+        const alpha = String.fromCharCode(numbers[i]);
+        array.push(alpha);
+    }
+    document.getElementById('loop').innerHTML += " " + array.join(", ");
 }
+
+
 // Using the forEach method:
 function answerForEach() {
-    const data = numbers;
-    const answerLoop = document.getElementById('forEach').innerHTML = data;
+    var array = [];
+    numbers.forEach(function(item){
+        array.push(item)
+    const alpha = String.fromCharCode(array);
+    array.push(alpha);
+    });
+    document.getElementById('forEach').innerHTML += " " + array.join(" , ");
 }
 // Using the map method:
-function answerMap() {
-    const data = numbers;
-    const answerLoop = document.getElementById('map').innerHTML = data;
+function answerMap(item) {
+    var array = [];
+    
+    
 }
 
 // 2. Display numbers below showing only numbers that are greater than 72 and less then 88 (inclusive) using the filter method
