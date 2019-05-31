@@ -14,10 +14,11 @@ function answerLoop() {
 
 
 // Using the forEach method:
-function forEachLoop() {
+function answerForEach() {
     numbers.forEach(e => {
-    document.getElementById('forEach').innerHTML += " " + String.fromCharCode(e)
-})
+        document.getElementById('forEach').innerHTML += " " + String.fromCharCode(e)
+    })
+}
 
 // Using the map method:
 function answerMap(item) {
