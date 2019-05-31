@@ -25,3 +25,4 @@ function answerMap() {
 // 3. Display the product of all numbers using reduce
 // Answer:
 
+
