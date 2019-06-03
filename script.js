@@ -9,7 +9,7 @@ function answerLoop() {
         const alpha = String.fromCharCode(numbers[i]);
         array.push(alpha);
     }
-    document.getElementById('loop').innerHTML += " " + array.join(", ");
+    document.getElementById('forLoop').innerHTML += " " + array.join(", ");
 }
 
 
