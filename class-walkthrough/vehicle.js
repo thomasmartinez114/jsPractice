@@ -9,20 +9,14 @@ class Vehicle {
   }
 }
 
-class Sedan extends Vehicle {
-  constructor(fuel, color, tint, doors, seats) {
-    super(fuel, color, tint); // inherit props from Vehicle
-    this.doors = doors;
-    this.seats = seats;
-  }
+class Type extends Vehicle {
+    constructor(fuel, color, tint, doors, seats, style) {
+        super(fuel, color, tint); // inherit the props from Vehicle
+    }
 }
 
-class HatchBack extends Vehicle {
-  constructor(fuel, color, tint, doors, seats) {
-    super(fuel, color, tint); // inherit props from Vehicle
-    this.doors = doors;
-    this.seats = seats;
-  }
+class Brand extends Type, Vehicle {
+    constructor(fuel, color, tint, doors, seats, style) {
+        super(fuel, color, tint, doors, seats, style);
+    }
 }
-
-class Brand extends
