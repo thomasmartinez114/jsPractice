@@ -14,7 +14,9 @@ class Stack {
     return this._data[this._data.length - 1]; // to return the element that's on top of the stack
   }
   pop() {
-    this.length -= 1;
+    if (this.length > 0) {
+      this.length -= 1;
+    }
     return this._data.splice(-1)[0]; // get rid of the top
   }
   isEmpty() {
@@ -33,6 +35,7 @@ console.log(stack.top()); // display the top element
 console.log(stack.pop()); // remove the top element
 console.log('length', stack.length);
 console.log(stack.top()); // display the top element
+console.log(stack.pop());
 console.log(stack.pop());
 console.log(stack.pop());
 console.log(stack.pop());
