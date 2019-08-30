@@ -30,17 +30,17 @@ stack.push(5);
 stack.push(10);
 stack.push(500);
 stack.push(1020);
-console.log('length', stack.length); // get the length of array
-console.log(stack.top()); // display the top element
-console.log(stack.pop()); // remove the top element
-console.log('length', stack.length);
-console.log(stack.top()); // display the top element
-console.log(stack.pop());
-console.log(stack.pop());
-console.log(stack.pop());
-console.log(stack.pop());
-console.log(stack.pop());
-console.log(stack.isEmpty());
+console.log('length', stack.length); // display the length of array -- length 5
+console.log(stack.top()); // display the top element -- 1020
+console.log(stack.pop()); // remove the top element -- 1020
+console.log('length', stack.length); // display the length of array -- length 4
+console.log(stack.top()); // display the top element -- 500
+console.log(stack.pop()); // remove the top element -- 500
+console.log(stack.pop()); // remove the top element -- 10
+console.log(stack.pop()); // remove the top element -- 5
+console.log(stack.pop()); // remove the top element -- 1
+console.log(stack.pop()); // remove the top element -- there is not anymore elements
+console.log(stack.isEmpty()); // return true if array is empty
 
 // Notes from 8/27/2019
 
